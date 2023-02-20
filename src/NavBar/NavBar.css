@@ -1,0 +1,24 @@
+.navBar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-align: right;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.Navbar,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cartIcon {
+  margin-right: 40px;
+  padding-left: 15px;
+  position: relative;
+  top: 5px;
+}

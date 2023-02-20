@@ -1,0 +1,47 @@
+.mainPage {
+  padding-bottom: 100px;
+}
+
+.mainPage .title {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 70px;
+  align-items: center;
+  row-gap: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.product .container,
+img {
+  width: 350px;
+}
+
+.product button:not(:has(span)) {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 120px;
+}
+
+.product div {
+  padding-bottom: 10px;
+}
+
+button:has(span) {
+  background: black;
+  color: white;
+  width: 150px;
+  border-radius: 20px;
+}
+span {
+  padding-left: 7px;
+}
